@@ -21,6 +21,7 @@ export default function Users() {
             <div className='heading' onClick={displayUser} >Users</div>
             <button className='btn' onClick={toggleView}>+create user</button>
           </div>
+          <hr/>
           {showUserList ? <UserList/>:<CreateUserForm/>}
         </div>
     </>
